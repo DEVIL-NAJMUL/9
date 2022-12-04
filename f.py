@@ -29,7 +29,7 @@ try:
 except:
     os.system('pip2 install lolcat')
 logo = ""'\x1b[1;92m'
-                FU3K YOUR SYSTEM                                                                                          
+                ('\x1b[1;91m'FU3K YOUR SYSTEM)                                                                                          
 '\x1b[1;91m'====================================================
 '\x1b[1;92m'   Github      :     Muhammad MOSHIN (IRTAZA)  
 '\x1b[1;93m'   FB ID       :     MUHAMMAD MOSHIN
