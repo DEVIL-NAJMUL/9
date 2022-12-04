@@ -91,7 +91,7 @@ def main_apv():
     print ("\x1b[1;96m[7]   For Any Help Massage WhatsApp")
     print 
     print ("\x1b[1;92m[*] \x1b[1;95m For Need Any Help Type 7 And Massage Me On \x1b[1;92mWhatsApp ")
-    print 450*'~'
+    print 
     main_input()
 def main_input():
     mx=raw_input('\x1b[1;92m[!] Select : ')
@@ -235,12 +235,12 @@ def numcloning():
     p = ThreadPool(30)
     p.map(main, ra)
     print "\x1b[1;97m"
-    print 40*'-'
+    print 
     print "[!] Cloning Complete Been Completed ........"
-    print 40*'-'
+    print 
     print '[!] Total Ok Ids : ' +str(len(cps))
     print '[!] Total Cp Ids : ' +str(len(oks))
-    print 40*'-'
+    print 
     print ''
     raw_input(' Press Enter To Back ')
     main_system()
