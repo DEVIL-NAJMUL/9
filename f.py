@@ -80,7 +80,7 @@ def main_apv():
         print ('\x1b[1;91mToken on Chekpiont ')
         os.system('rm -rf token.txt')
     os.system('clear')
-    print logo
+    print 
     print ("")
     print 
     print ("\x1b[1;93m[1]   Public Cloning     (BEST) LOGIN")
@@ -137,7 +137,7 @@ def main_input():
         grap()
     elif mx=='5':
     	os.system ('clear')
-        print logo
+        print 
         print ("")
         print ("")
         print ("")
@@ -178,7 +178,7 @@ def numcloning():
     cps=[]
     oks=[]
     os.system ("clear")
-    print logo
+    print 
     print ("")
     print    ("    \033[1;91m\n[ Pakistan Random Number Cloning ]")
     
@@ -257,7 +257,7 @@ def fb_menu():
         token=open('token.txt','r').read()
     except:
         os.system('clear')
-        print logo
+        print 
         print ("")
         print ("\033[1;92m\n[1] Login With Token")
         print ("\033[1;93m\n[0] Back")
@@ -265,7 +265,7 @@ def fb_menu():
         pp=raw_input('\033[1;94m\nSelect :\033[1;91m ')
         if pp=='1':
             os.system('clear')
-            print logo
+            print 
             print "\033[1;91m\n[*] Enter Your Token Hear"
             print ''
             tok=raw_input('\033[1;92m\n[*]PASTE TOKEN :\033[1;97m ')
@@ -281,7 +281,7 @@ def fb_menu():
                 time.sleep(2)
                 fb_menu()
             except requests.exceptions.ConnectionError:
-                print logo
+                print 
                 print (''")
                 print ("Trun On Data An Then \t")
                 print("")
@@ -346,7 +346,7 @@ def fb_menu():
             fb_menu()
     elif cz=="v":
         os.system('clear')
-        print logo
+        print 
         print ("")
         print ("")
         print "\t     [ File Making ]"
@@ -391,7 +391,7 @@ def mineExt():
     except:
         fb_menu()
     os.system('clear')
-    print logo
+    print
     print ("")
     iiid=raw_input("[=] Enter ID : ")
     rrp=requests.get ("https://graph.facebook.com/"+iiid+"?access_token="+token)
