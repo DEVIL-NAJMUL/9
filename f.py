@@ -28,7 +28,7 @@ try:
     import lolcat
 except:
     os.system('pip2 install lolcat')
-logo = ("")"'\x1b[1;92m'
+logo = ""'\x1b[1;92m'
                 FU3K YOUR SYSTEM                                                                                          
 '\x1b[1;91m'====================================================
 '\x1b[1;92m'   Github      :     Muhammad MOSHIN (IRTAZA)  
@@ -40,7 +40,7 @@ logo = ("")"'\x1b[1;92m'
 '\x1b[1;94m'KISI NY SCRIYPT KO DEC KRWANAO HN TO AJANA 
 '\x1b[1;95m' BUT PAID HN GAI 
  '\x1b[1;96m'====================================================              
-("")"
+"""
 dec="2"
 server="2"
 
